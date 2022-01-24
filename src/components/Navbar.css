@@ -1,0 +1,28 @@
+.nav-toggle .hamburger-bar {
+    height:5px;
+    width:55px;
+    margin:4px 0;
+    transition:all 1s linear;
+    background: black;
+}
+.navToggle{
+    display:inline-block;
+    margin-top:20px;
+}
+.hamburger-menu{
+    transition:all .5s ease-in-out;
+}
+.open .hamburger-menu {
+    transform: rotate(90deg);
+}
+.open .line-1 {
+    transform:rotate(-20deg) translate(0px, 0px);
+    transform-origin: right;
+}
+.open .line-3 {
+    transform:rotate(20deg);
+    transform-origin: right;
+}
+.open .line-2 {
+    opacity: 0;
+}
